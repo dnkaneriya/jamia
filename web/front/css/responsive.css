@@ -1,0 +1,213 @@
+/*****MEDIA QUERIES*****/
+@media screen and (max-width:1170px) {
+
+
+    #nav {
+      width: 940px;
+      padding: 20px 0;
+    }    
+
+     /* Main Menu */
+    #nav > ul { display: none; }
+    #nav select { 
+      display: block !important;
+      padding: 3px;
+      margin-top: 0px; 
+      outline: none; 
+      border: 1px solid #333; 
+      width: 400px;
+      margin: auto;
+    }
+
+    #nav select { 
+      padding:10px;
+      border:1px solid #808080;
+      border-radius:10px;
+    }
+
+.donate input[type="submit"]{
+    margin-top:10px;
+}
+
+.welcome p{
+    padding-left:0;
+    padding-right:0;
+}
+
+.flex-direction-nav a {
+  bottom:150px;
+}
+
+}
+/* for 980px or less */
+@media screen and (max-width:980px) {
+
+    .timetbl {
+        width:100%;
+        float:left;
+        overflow:auto;
+    }
+
+
+.td2{
+    text-align:left;
+}
+
+  .logo {
+    float: none;
+    width:100%;
+    text-align:center;
+  }
+
+  #nav {
+    width: 100%;
+    padding:0 0 20px 0;
+  }  
+.donate input[type="submit"]{
+    margin-top:0;
+}
+
+.donate_for h4{
+    display:none;
+}
+
+.donate input[type="text"]{
+    width:100%;
+    margin:0 0 10px 0;
+}
+.donate input[type="submit"]{
+    width:100%;
+    margin:10px 0 0 0;
+}
+.donate_for select{
+    width:100%;
+    margin:0;
+}
+
+.donate_for {
+    width:100%;
+    margin:0;
+}
+
+    .parallax_text .column3{
+       width:25% !important;
+    }
+
+    .parallax_text .column3 img{
+       width:95% !important;
+    }
+
+.parallax_text h4{
+    font-size:14px;
+    text-transform:none;
+}
+
+.flex-direction-nav a {
+  bottom:120px;
+}
+
+}
+/* for 700px or less */
+@media screen and (max-width:700px) {
+
+    .flex-direction-nav a {
+  display:none;
+}
+
+.flex-caption h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.flex-caption p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+   #nav select { 
+    width: 300px;
+  }
+
+
+
+  .content {
+    padding:0;
+}
+
+
+
+}
+/* for 480px or less */
+@media screen and (max-width:480px) {
+.td1 {
+    text-align:left;
+    font-size:12px;
+}
+
+    .form_input img{
+        width:100%;
+    }
+
+.sitemap {
+
+  font-size: 12px;
+  padding: 5px 15px;
+  text-transform:none;
+  border-radius:5px;
+}
+
+.flex-caption  {
+  display:none;
+}
+
+.parallax_text {
+  width:300px;
+  height:auto;
+  font-size:12px;
+}
+
+
+.parallax_text h3{
+    margin:0 auto 10px auto;
+    font-size:20px;
+}
+
+    .parallax_text .column3{
+       width:50% !important;
+    }
+
+.map {
+    padding:20px 0;
+}
+
+.map h3{
+    margin:0 auto 20px auto;
+    padding:5px 40px;
+    font-size:20px;
+}
+
+footer {
+  font-size:12px !important;
+}
+
+.welcome h1, .articles h1{
+    margin:0 auto 10px auto;
+    font-size:20px;
+}
+.welcome, .articles {
+    padding:20px 0;
+}
+
+    .content {
+    font-size:13px;
+}
+
+
+  #nav {
+    width: 300px;
+  }  
+
+
+
+
+}

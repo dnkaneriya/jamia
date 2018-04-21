@@ -1,0 +1,15 @@
+.student-icard {    
+    border: 1px solid #dcdcdc;
+    padding: 10px !important;
+}
+
+.icard-header {
+    background: url("../../img/icard_background.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.icard-body {
+/*    background: url("../../img/icard_body.png") no-repeat;
+    background-size: 100% 100%;*/
+    padding-top:10px;
+}

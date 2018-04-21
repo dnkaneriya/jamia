@@ -1,0 +1,35 @@
+
+
+a, .btn , .close, .nav-tabs > li > a, .navbar-toggle, .navbar-toggle .icon-bar, .social-icon .icon, .navbar, .mid-blog-section .col-sm-4, .grid-item-video .video-caption{
+  transition:           color 0.3s ease-in-out, background 0.3s ease-in-out, opacity 0.3s ease-in-out, border 0.3s ease-in-out;
+  -webkit-transition:   color 0.3s ease-in-out, background 0.3s ease-in-out, opacity 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.owl-theme .owl-controls .owl-page span,
+.push-effects-down,
+.push-effects-down .fa,
+.checkbox:before,
+.radio:before,
+.checkbox-round:before,
+.radio:after,
+.checkbox-round:after,
+.blog-item .blog-image,
+.blog-item .blog-desc,
+.treatment .treatment-images .treat-img .img-desc,
+.blog-item .blog-image img,
+.grid-item-video > img,
+.homepage-custom-banner .banner-img,
+.homepage-custom-banner .banner-img img,
+.homepage-custom-banner .col-sm-4 h3,
+.feature-box,
+.feature-box .img-box a > img{
+  transition:         all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav > li > a{
+  transition:           transform 300ms ease-in-out, color 300ms ease-in-out;
+  -webkit-transition:  -webkit-transform 300ms ease-in-out, color 300ms ease-in-out;
+  -moz-transition:    -moz-transform 300ms ease-in-out, color 300ms ease-in-out;
+  -ms-transition:     -ms-transform 300ms ease-in-out, color 300ms ease-in-out;  
+}

@@ -1,0 +1,707 @@
+/* ********************************************************************************************
+    Design for a width of 1024px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 1100px) {
+    
+    /* Blog Item
+    ======================================================================================= */
+    .owl-theme .owl-controls .owl-buttons .owl-prev{
+        margin-left: -50px;
+    }
+    .owl-theme .owl-controls .owl-buttons .owl-next{
+        margin-right: -50px;
+    }
+    
+    /* Convivo Item
+    ======================================================================================= */
+    .convivo-slider.owl-theme .owl-controls .owl-buttons .owl-prev{
+        margin-left: 0px;
+    }
+    .convivo-slider.owl-theme .owl-controls .owl-buttons .owl-next{
+        margin-right: 0px;
+    }
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 1024px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 1025px) {
+    
+    /* Blog Item
+    ======================================================================================= */
+    
+    .blog-item .blog-image{
+        margin-bottom: 0px;
+        overflow: hidden;
+        border-top: 5px solid transparent;
+    }
+    .blog-item .blog-desc{
+        padding: 0 10px;
+        transform:          translateY(10%);
+        -webkit-transform:  translateY(10%);
+        -moz-transform:     translateY(10%);
+        -ms-transform:      translateY(10%);
+    }
+    .blog-item:hover .blog-desc{
+        background: rgba(255, 255, 255, 0.62);
+        
+        transform:          translateY(-30%);
+        -webkit-transform:  translateY(-30%);
+        -moz-transform:     translateY(-30%);
+        -ms-transform:      translateY(-30%);
+                
+        box-shadow:         0px 4px 4px 1px rgba(0,0,0,0.32);
+        -webkit-box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.32);
+        -moz-box-shadow:    0px 4px 4px 1px rgba(0,0,0,0.32);
+        -ms-box-shadow:     0px 4px 4px 1px rgba(0,0,0,0.32);
+        -o-box-shadow:      0px 4px 4px 1px rgba(0,0,0,0.32);
+    }
+    
+    .blog-item:hover .blog-image{
+        border-top-color: #A71D36;
+        box-shadow:         0px 2px 4px 1px rgba(0,0,0,0.32);
+        -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.32);
+        -moz-box-shadow:    0px 2px 4px 1px rgba(0,0,0,0.32);
+        -ms-box-shadow:     0px 2px 4px 1px rgba(0,0,0,0.32);
+        -o-box-shadow:      0px 2px 4px 1px rgba(0,0,0,0.32);
+    }
+    
+    
+    /* Top Header
+    ======================================================================================= */
+    
+    .form-search.mobile{
+        display: none;
+    }
+    
+    
+    /* Homepage Section
+    ======================================================================================= */
+    
+    /* Hover Effect */
+    .homepage-custom-banner a,
+    .mid-blog-section .mid-blog a,
+    .feature-box .product-content a,
+    .blog-item .blog-desc a.btn{
+        opacity: 0;
+        filter: alpha(opacity=0);        
+    }
+    .homepage-custom-banner .col-sm-4:hover a,
+    .mid-blog-section .col-sm-4:hover .mid-blog a,
+    .feature-box:hover .product-content a,
+    .blog-item:hover .blog-desc a.btn{
+        opacity: 1;
+        filter: alpha(opacity=100);    
+    }
+    .homepage-custom-banner .col-sm-4:hover .banner-img img,
+    .homepage-custom-banner .col-sm-4:hover h3,
+    /*.feature-box:hover .img-box a > img,*/
+    .blog-item:hover .blog-image img,
+    .grid-item-video:hover > img{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);    
+    }
+    
+    /* Mid Blog Section  */
+    .mid-blog-section .col-sm-4:hover{
+        background-color: #DDD;
+    }
+    
+    /* Toplinks Pages
+    ======================================================================================= */
+    .feature-box:hover{
+        margin: -10px -10px 30px -10px;
+        padding: 10px;
+        border-radius: 0px;
+        background: #efefef;
+        
+        box-shadow:         0px 0px 16px rgba(12, 5, 13, 0.18);
+        -webkit-box-shadow: 0px 0px 16px rgba(12, 5, 13, 0.18);
+        -moz-box-shadow:    0px 0px 16px rgba(12, 5, 13, 0.18);
+        -ms-box-shadow:     0px 0px 16px rgba(12, 5, 13, 0.18);
+        -o-box-shadow:      0px 0px 16px rgba(12, 5, 13, 0.18);
+    }
+    .feature-box .img-box,
+    .grid-item-video{
+        overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width: 1024px) {
+    .form-search.desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    /* Top Header
+    ======================================================================================= */
+    .top-links .list-inline.mobile{
+        display: none;
+    }
+    .accordion .accordion-sec{
+        display: none;
+    }
+    .accordion.mobile{
+        display: none;
+    }
+    
+    /* Navbar
+    ======================================================================================= */
+        
+    /* Navbar Default */
+    .navbar {
+        border-radius: 0px;
+    }    
+    .navbar-header {
+        float: left;
+    }    
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0px;
+        overflow: visible !important;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-static-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .container > .navbar-header,
+    .container-fluid > .navbar-header,
+    .container > .navbar-collapse,
+    .container-fluid > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand{
+        margin-left: -15px;
+    }    
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    .navbar-nav > li {
+        float: left;
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        padding: 15px 20px;
+    }
+    .navbar-nav > li > a:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 0px;
+        border-bottom: 3px solid #1eb3cf;
+        display: none;
+    }
+    .navbar-nav > li > a:hover:after,
+    .navbar-nav > li > a:focus:after,
+    .navbar-nav > li.active > a:after{
+        width: 100%;
+    }
+    .navbar-left {
+        float: left !important;
+    }
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+        margin-left: 0px;
+    }
+    .navbar-right.navbar-nav > li{
+
+    }
+    .navbar-right ~ .navbar-right {
+        margin-right: 0;
+    }
+    
+    /* Sticky Navbar */
+    .sticky-navbar .navbar-nav > li > a{
+        /*font-size: 14px;*/
+    }
+    .sticky-navbar .navbar-nav > li > a br{
+        display: none;
+    }
+    
+    .ie6 #example-one li, .ie7 #example-one li { 
+        /*display: inline; */
+    }
+    .ie6 #magic-line {
+        bottom: -2px;
+    }    
+    
+    /* MD - Floating
+    ======================================================================================= */
+    .pull-md-left{
+        float: left !important;
+    }
+    .pull-md-right{
+        float: right !important;
+    }
+    
+    /* Grid Masonry
+    ======================================================================================= */
+    .perguntas-sizer,
+    .perguntas-item{width: 50% !important;}
+    
+    .dicas-sec{width: 25% !important;}
+    .dicas-sec:first-child + .dicas-sec{width: 50% !important;}
+    
+    
+
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    
+    /* Navbar
+    ======================================================================================= */    
+    .navbar-brand > img{
+        max-width: 220px;
+    }
+    .sticky-navbar .navbar-brand > img{
+        max-width: 175px;
+    }
+    .navbar-nav > li > a{
+        padding: 15px 7px;
+        font-size: 16px;
+    }
+    .sticky-navbar .navbar-nav > li > a{
+        font-size: 16px;
+    }
+    .top-header .list-inline > li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .top-header ul > li > a,
+    .desktop .form-search-input input[type=text]{
+        font-size: 13px;
+    }
+    
+    /* Banner Slider
+    ======================================================================================= */    
+    .banner-caption h2{
+        font-size: 45px;
+    }
+      
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 991px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 991px) {
+    
+    .top-links .list-inline.desktop {
+        display: none;
+    }
+    li.accordion.mobile > a{
+        display: inline-block;
+    }
+    li.accordion.mobile a.accordion-sec{
+        float: right;
+        cursor: pointer;
+    }
+    .accordion.desktop{
+        display: none;
+    }
+    .accordion.mobile .accordion-menu{
+        padding: 0px 15px;
+    }
+    
+    /* Navbar
+    ======================================================================================= */
+    .navbar > .container,
+    .top-header > .container{
+        width: auto;
+    }
+    .navbar-nav > li > a br{
+        display: none;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-image: none;
+    }
+    .navbar-collapse{
+        background: #FFF;
+        border-bottom: 1px solid #CACACA;
+        border-top-color: #CACACA;
+    }
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:focus,
+    .navbar-nav > li.active > a{
+        transform:          scale(1);
+        -webkit-transform:  scale(1);
+        -moz-transform:     scale(1);
+        -ms-transform:      scale(1);
+    }
+    
+    /* Banner Slider
+    ======================================================================================= */    
+    .banner-caption h2{
+        font-size: 40px;
+    }
+    
+    .blog-item-section .item.blog-item{
+        border-right: none;
+    }
+       
+}
+
+/* ********************************************************************************************
+    Design for a width of 768px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 769px) and (max-width: 992px)  {
+
+    /* Toplinks Pages
+    ======================================================================================= */
+    
+    /* Feature Box */
+    .feature-box h2{
+        font-size: 24px;
+    }
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 768px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 769px) {
+
+    
+    /* Mobile accordion
+    ======================================================================================= */
+    .mobile-accordion .opener {
+        display:none !important;
+    }		
+    .mobile-accordion .block-content {
+        display:block !important;
+    }
+    
+    /* SM - Floating 
+    ======================================================================================= */
+    .pull-sm-left{
+        float: left !important;
+    }
+    .pull-sm-right{
+        float: right !important;
+    }
+    
+    /* Mobile Label */
+    .mobile-label{
+        display: none;
+    }
+    
+    /* Grid Masonry 
+    ======================================================================================= */
+    .perguntas-sizer,
+    .perguntas-item{width: 50%;}
+    
+    .dicas-sec{width: 50%;}
+    
+    /* Video Modal
+    ======================================================================================= */        
+    .video-modal .modal-dialog{
+        width: auto;
+        max-width: 998px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }       
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 767px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 768px) {   
+    
+    /* Top Header
+    ======================================================================================= */  
+    .top-links .list-inline.desktop{
+        display: none;
+    }
+    /*.top-header .top-links{
+        float: left;
+    }*/
+    .top-header .top-social .list-inline > li{
+        padding-right: 15px;
+    }
+    
+    /* Section Title
+    ======================================================================================= */  
+    .section-title .social-icon{
+        float: none !important;
+    }
+    
+    /* Mobile accordion
+    ======================================================================================= */
+    .mobile-accordion .block-content {
+        display:none;
+        position: relative;
+    }
+    .mobile-accordion {
+        position:relative;
+    }
+    
+    /* Mobile Label */
+    .mobile-label{
+        margin-right: 10px;
+    }
+    
+    /* Banner Slider
+    ======================================================================================= */    
+    .banner-caption h2{
+        font-size: 35px;
+    }
+    .banner-caption{
+        background-color: rgba(0, 0, 0, 0.30);
+    }
+    .banner-caption h2,
+    .banner-caption h2 span{
+        color: #FFF;        
+    }
+    
+    /* Mid Blog Section
+    ======================================================================================= */    
+    .mid-blog-section > .container > .row{
+        margin-left: -15px;
+        margin-right: -15px;
+        display: block;
+    }
+    .mid-blog-section .col-sm-4{
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        display: block;
+    }
+    .mid-blog-section .col-sm-4:last-child{
+        border-bottom-width: 0px;
+    }
+    .mid-blog-section .mid-blog{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    /* Sobre Page Section
+    ======================================================================================= */
+    .treatment .treatment-images .treat-img{
+        width: 50%;
+    }
+    
+    /* Encontre 
+    ======================================================================================= */
+    .search-result{
+        margin-top: 30px;
+    }
+    .search-zip .form-inline h2{
+        margin-bottom: 10px;
+    }
+    .result-box,
+    .result-box:hover, .result-box.active{
+        padding: 5px 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .dicas .dicas-sec{
+        float: none;
+    }
+    
+    .blog-item-section .item.blog-item{
+        border-right: none;
+    }
+    
+    .convivo-text{
+        margin-bottom: 20px;
+    }
+    .newsletter .col-sm-6:first-child{
+        padding-right: 15px;
+    }
+    .newsletter .col-sm-6:last-child{
+        padding-left: 15px;
+    }
+    .doctor-intro{
+        margin-top: 20px;
+    }
+    
+    .causes-sign .causes-sec{
+        margin-bottom: 20px;
+    }
+    .footer-bottom,
+    .footer-bottom > *{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bottom .bake-to-top{
+        width: 70px;
+    }
+    .footer-bottom p,
+    .footer-bottom .social-icon{
+        margin-bottom: 15px;
+    }
+    .importante-sec{
+        min-height: 220px;
+    }
+    .testimonials-slider .item .content{
+        font-size: 22px;
+    }
+}
+
+/* ********************************************************************************************
+    Design for a width of 480px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 639px) {
+
+    /* Banner Slider
+    ======================================================================================= */    
+    .banner-caption h2{
+        font-size: 30px;
+    }
+    
+    /* Testimonials
+    ======================================================================================= */    
+    .testimonials-slider .item .post-user-img{
+        float: none;
+        text-align: center;
+    }
+    
+    .newsletter .form-group .form-control,
+    .section-title.main h2:after,
+    .importante .main h2:before,
+    .newsletter .doctor-intro .img{
+        width: 100%;
+    }
+    .newsletter .doctor-intro .img{
+        float: none;
+    }
+    .newsletter .doctor-intro a{
+        bottom: 0;
+    }
+    .testimonials-slider .item .content{
+        font-size: 16px;
+    }
+    .arrow-bottom a,
+    .owl-theme .owl-controls .owl-buttons div{
+        font-size: 40px;
+    }
+    .full-screen-slider.owl-theme .owl-controls{
+        margin-top: -30px;
+    }
+    .section-title h2{
+        font-size: 28px;
+    }
+    
+}
+
+/* ********************************************************************************************
+    Design for a width of 539px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 479px) {
+    
+    /* Navbar
+    ======================================================================================= */    
+    .navbar-brand > img,
+    .sticky-navbar .navbar-brand > img{
+        max-width: 185px;
+    }
+    
+    /* Toplinks Pages
+    ======================================================================================= */
+    
+    /* Feature Box */
+    .feature-box{
+        text-align: center;
+    }
+    .feature-box .img-box{
+        float: none;
+        margin: 0 auto 15px;
+    }
+    .feature-box .product-content a{
+        float: none !important;
+    }
+    
+    /* Form Email */
+    .form-email .form-control{
+        font-size: 20px;
+    }
+    
+    .custom-content-section .pro-info,
+    .custom-content-section .pro-img{
+        display: block;
+        text-align: center;
+        margin: 0 auto 20px;
+        padding: 0;
+    }
+    
+    .testimonials-section{
+        padding: 0 10px;
+    }
+    
+    .convivo-text p{
+        text-align: start;
+        line-height: 20px;
+    }
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 380px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 380px) {
+    .importante-sec .img{
+        float: none;
+        margin: 0 auto;
+    }
+}
